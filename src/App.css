@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
 *{
     margin:0;
     padding:0;
     text-decoration: none;
+    font-family: "Poppins";
 }
+
+body {
+    background: #f1f1f1;
+    margin: 0;
+    font-family: "Poppins";
+  }
 .container{
     display:flex;
 }
@@ -11,9 +19,9 @@ main{
     padding: 20px;
 }
 .sidebar{
-    background: #000;
-    color: #fff;
-    height: 100vh;
+    background: #fff;
+    color: black;
+    height: 90.3vh;
     width: 200px;
     transition: all 0.5s;
 }
@@ -32,20 +40,29 @@ main{
 }
 .link{
     display: flex;
-    color: #fff;
-    padding: 10px 15px;
-    gap: 15px;
+    color: black;
+    padding: 2px 15px;
     transition: all 0.5s;
+    border-radius: 0.375rem;
+    font-weight: 500;
+    transition-duration: 300ms;
+    display: flex;
+    align-items: center;
+    gap: 1.65rem;
+    margin: 5px 10px;
 }
 .link:hover{
-    background:lightskyblue;
-    color: #000;
+    background:#fff;
+    color: #3799FC;
     transition: all 0.5s;
 }
 .active{
-    background: lightskyblue;
-    color: #000;
+    background: #DBEAFE;
+    color: #3799FC;
 }
-.icon, .link_text{
-    font-size: 20px;
+.icon{
+    font-size: 25px;
+}
+.link_text{
+    font-size: 15px;
 }
